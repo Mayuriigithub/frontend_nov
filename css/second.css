@@ -1,0 +1,109 @@
+*
+{
+margin:0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.container{
+
+    width:80%;
+    min-height: 400px;
+   
+    margin: auto;
+
+}
+
+.company{
+
+       width:100%;
+       height: 60px;
+       background-color: black;
+       margin:auto;
+
+}
+
+.company .menu
+   {
+       width:50%;
+       height:60px;
+       background-color: blueviolet;
+       float:right;
+       
+       padding-top: 20px;
+       
+
+   }
+
+   .company .menu a
+   {
+         text-decoration: none;
+         padding:10px;
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+
+   }
+   .menu a:hover{
+    background-color: aqua;
+    color:yellow;
+ }
+       
+   
+.company .logo
+{
+       width:48%;
+       height:60px;
+       background-color: royalblue;
+       float:left;
+       padding: 10px;
+    
+
+}
+.slider
+{
+    width:100%;
+    min-height: 100px; 
+    background-color: gray;
+    margin-top: 10px;
+}
+
+    .slider img{
+        height:100%;
+        width:100%;
+    }
+   
+    
+
+    .main-con-div{
+        width:100%;
+       min-height:600px;
+        /* background-color: aqua; */
+        padding-top: 10px;
+    }
+
+    .main-con-div .sidebar-con{
+           width: 20%;
+           min-height: 300px;
+           background-color: rgb(129, 238, 5);
+           float: left;
+
+    }
+
+    .main-con-div .content{
+  
+        width: 78%;
+        min-height: 300px;
+        background-color: gray;
+        float: right;
+    }
+
+     .content.adv{
+        width:80%;
+       min-height:300px;
+    }
+
+    .adv img{
+        width: 98%;
+        height: 100%;
+    
+    }
